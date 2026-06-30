@@ -1,7 +1,6 @@
-# python-data-analytics-
 # Data Analytics Portfolio — Cricket, Civic Data, and Everyday Numbers
 
-Eight projects built over a 45-day Python data analytics bootcamp, exploring questions across IPL cricket, personal finance, and air quality in Indian cities. Each project answers a specific question rather than just describing a dataset.
+Eight projects , exploring questions across IPL cricket, personal finance, and air quality in Indian cities. Each project answers a specific question rather than just describing a dataset.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-data%20wrangling-150458?logo=pandas&logoColor=white)
@@ -38,7 +37,7 @@ This goes at the top because it's the single sentence most likely to get someone
 
 ## About this portfolio
 
-Built during a 45-day, 144-hour Python data analytics bootcamp (July – August 2026) covering Python fundamentals, NumPy, Pandas, data cleaning, and exploratory data analysis. Rather than working through the suggested generic datasets, every project here was rebuilt around real questions in cricket analytics, personal finance, and civic data — with the IPL theme running through four of the eight projects to show depth, and standalone projects in other domains to show range.
+Python data analytics projects covering Python fundamentals, NumPy, Pandas, data cleaning, and exploratory data analysis. Every project here was rebuilt around real questions in cricket analytics, personal finance, and civic data — with the IPL theme running through four of the eight projects to show depth, and standalone projects in other domains to show range.
 
 Each project folder contains its own README with the question it answers, the approach taken, the key finding, and an honest section on what's missing or what I'd do with more time.
 
@@ -46,6 +45,11 @@ Each project folder contains its own README with the question it answers, the ap
 
 Python 3.8+, Jupyter Notebook, NumPy, Pandas, Matplotlib, Seaborn.
 
-## Connect
 
-*(Add your LinkedIn, email, or portfolio site link here.)*
+## 🤝 Let's Connect
+
+If you enjoyed this project or would like to collaborate on data analytics, machine learning, or business intelligence projects, I'd love to connect!
+
+💼 **LinkedIn:** https://www.linkedin.com/in/illakiya-boopathy-58680630a
+
+⭐ If you found this repository helpful, consider giving it a star!
