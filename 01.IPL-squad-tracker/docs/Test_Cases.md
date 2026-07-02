@@ -26,7 +26,7 @@ This document summarizes the primary functional test cases performed to validate
 | TC-003 | View team squad | ✅ Passed |
 | TC-004 | Purse limit validation | ✅ Passed |
 | TC-005 | Invalid input handling | ✅ Passed |
-
+| TC-006 | List Teams| ✅ Passed |
 ---
 
 # TC-001 – Create a New Team
@@ -53,13 +53,13 @@ Verify that a player is added successfully and the purse is updated.
 
 | Input | Expected Result | Status |
 |-------|-----------------|--------|
-| MS Dhoni (₹12 Cr) | Player added and purse reduced to ₹88 Cr | ✅ Passed |
+| Ruthraj Gaikwad (₹18 Cr) | Player added and purse reduced | ✅ Passed |
 
-📷 **Screenshot**
+**Screenshot**
 
-```text
-docs/Screenshots/add_player.png
-```
+<p align="center">
+  <img src="Screenshots/add_player.png" alt="Create Team" width="450">
+</p>
 
 ---
 
@@ -73,11 +73,11 @@ Verify that the application correctly displays squad details.
 |-----------------|--------|
 | Player list, total spent, average spending, and remaining purse displayed correctly | ✅ Passed |
 
-📷 **Screenshot**
+**Screenshot**
 
-```text
-docs/Screenshots/view_squad.png
-```
+<p align="center">
+  <img src="Screenshots/view_squad.png" alt="Create Team" width="300">
+</p>
 
 ---
 
@@ -91,11 +91,12 @@ Ensure that players cannot be purchased if their price exceeds the remaining pur
 |-------|-----------------|--------|
 | Remaining Purse: ₹5 Cr<br>Player Price: ₹15 Cr | Purchase rejected with warning message | ✅ Passed |
 
-📷 **Screenshot**
+**Screenshot**
 
-```text
-docs/Screenshots/purse_limit.png
-```
+<p align="center">
+  <img src="Screenshots/purse_limit.png" alt="Create Team" width="450">
+</p>
+
 
 ---
 
@@ -105,15 +106,35 @@ docs/Screenshots/purse_limit.png
 
 Verify that invalid user inputs are handled gracefully.
 
+| Expected Result | Status |
+|-----------------|--------|
+| Appropriate error message displayed | ✅ Passed |
+
+**Screenshot**
+
+<p align="center">
+  <img src="Screenshots/invalid_input.png" alt="Create Team" width="400">
+</p>
+
+
+---
+
+# TC-006 -List teams
+
+**Objective**
+
+To list all the teams 
+
 | Scenario | Expected Result | Status |
 |----------|-----------------|--------|
-| Invalid menu option or non-numeric price | Appropriate error message displayed | ✅ Passed |
+| List teams| Displays all team ,no.of player purchased,purse limit | ✅ Passed |
 
-📷 **Screenshot**
+**Screenshot**
 
-```text
-docs/Screenshots/invalid_input.png
-```
+<p align="center">
+  <img src="Screenshots/list_teams(1).png" alt="Create Team" width="250">
+    <img src="Screenshots/list_teams(2).png" alt="Create Team" width="380">
+</p>
 
 ---
 
@@ -121,8 +142,8 @@ docs/Screenshots/invalid_input.png
 
 | Metric | Result |
 |--------|-------:|
-| Total Test Cases | 5 |
-| Passed | 5 |
+| Total Test Cases | 6 |
+| Passed | 6 |
 | Failed | 0 |
 | Success Rate | **100%** |
 
