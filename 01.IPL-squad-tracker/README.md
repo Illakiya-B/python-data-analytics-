@@ -16,7 +16,7 @@ This project demonstrates how Python can be used to build a practical command-li
 - Data validation and error handling
 - Real-world constraint enforcement similar to an IPL auction
 
-**Tools:** Python (functions, loops, dictionaries) — no external libraries
+**Tools:** Python (functions, loops, dictionaries)  no external libraries
 **Data:** Self-defined sample player and price data (swap in real auction data if available)
 
 [View the code](./squad_tracker.py)
