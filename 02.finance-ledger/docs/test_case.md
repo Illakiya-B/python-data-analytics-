@@ -43,7 +43,7 @@ Verify that a new expense transaction is successfully added and saved to the led
 ### Screenshot
 
 <p align="center">
-  <img src="Screenshots/add_transaction.png" alt="Add Transaction" width="650">
+  <img src="Screenshots/add_transaction.png" alt="Add Transaction" width="480">
 </p>
 
 ---
@@ -61,7 +61,7 @@ Verify that all saved transactions are displayed with correct details.
 ### Screenshot
 
 <p align="center">
-  <img src="Screenshots/view_transactions.png" alt="View Transactions" width="650">
+  <img src="Screenshots/view_transactions.png" alt="View Transactions" width="500">
 </p>
 
 ---
@@ -79,7 +79,7 @@ Verify that the application generates an accurate monthly expense summary groupe
 ### Screenshot
 
 <p align="center">
-  <img src="Screenshots/monthly_summary.png" alt="Monthly Summary" width="650">
+  <img src="Screenshots/monthly_summary.png" alt="Monthly Summary" width="500">
 </p>
 
 ---
@@ -97,7 +97,7 @@ Verify that an existing transaction can be deleted after user confirmation.
 ### Screenshot
 
 <p align="center">
-  <img src="Screenshots/delete_transaction.png" alt="Delete Transaction" width="650">
+  <img src="Screenshots/delete_transaction.png" alt="Delete Transaction" width="500">
 </p>
 
 ---
@@ -115,7 +115,7 @@ Verify that invalid user inputs are handled without crashing the application.
 ### Screenshot
 
 <p align="center">
-  <img src="Screenshots/invalid_input.png" alt="Invalid Input" width="650">
+  <img src="Screenshots/invalid_input.png" alt="Invalid Input" width="500">
 </p>
 
 ---
