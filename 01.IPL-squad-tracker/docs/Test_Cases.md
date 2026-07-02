@@ -1,269 +1,133 @@
+#  Test Cases – IPL Squad & Salary Tracker
+
+## Overview
+
+This document summarizes the primary functional test cases performed to validate the IPL Squad & Salary Tracker application.
+
+---
+
+## Test Environment
+
+| Item | Details |
+|------|---------|
+| Language | Python 3.x |
+| Interface | Command Line Interface (CLI) |
+| IDE | Visual Studio Code |
+| External Libraries | None |
+
+---
+
 # Test Case Summary
 
-| Test ID | Test Scenario | Expected Result | Status |
-|----------|--------------|-----------------|--------|
-| TC-001 | Create a new team | Team created successfully | ✅ Passed |
-| TC-002 | Create duplicate team | Duplicate team warning | ✅ Passed |
-| TC-003 | Add player successfully | Player added and purse updated | ✅ Passed |
-| TC-004 | Add player to non-existing team | Error message displayed | ✅ Passed |
-| TC-005 | Exceed purse limit | Player purchase rejected | ✅ Passed |
-| TC-006 | View squad | Squad details displayed correctly | ✅ Passed |
-| TC-007 | List all teams | All teams listed with purse and player count | ✅ Passed |
-| TC-008 | Invalid price input | Validation error displayed | ✅ Passed |
-| TC-009 | Invalid menu choice | Invalid choice warning displayed | ✅ Passed |
-| TC-010 | Maximum squad size reached | Additional player rejected | ✅ Passed |
+| Test ID | Scenario | Status |
+|----------|----------|--------|
+| TC-001 | Create a new team | ✅ Passed |
+| TC-002 | Add player to a team | ✅ Passed |
+| TC-003 | View team squad | ✅ Passed |
+| TC-004 | Purse limit validation | ✅ Passed |
+| TC-005 | Invalid input handling | ✅ Passed |
 
 ---
 
-# Detailed Test Cases
-
----
-
-## TC-001 — Create a New Team
+# TC-001 – Create a New Team
 
 **Objective**
 
-Verify that a new IPL team can be created successfully.
+Verify that a new team is created with the default purse.
 
-| Parameter | Value |
-|-----------|-------|
-| Input | Chennai Super Kings |
-| Expected Result | Team is created with ₹100.00 Cr purse |
-| Actual Result | Team created successfully |
-| Status | ✅ Passed |
+| Input | Expected Result | Status |
+|-------|-----------------|--------|
+| Chennai Super Kings | Team created with ₹100 Cr purse | ✅ Passed |
 
 **Screenshot**
 
-```
-docs/Screenshots/create_team.png
-```
+<p align="center">
+  <img src="Screenshots/create_team.png" alt="Create Team" width="300">
+</p>
 
----
-
-## TC-002 — Duplicate Team Creation
+# TC-002 – Add Player Successfully
 
 **Objective**
 
-Ensure duplicate team names are not allowed.
+Verify that a player is added successfully and the purse is updated.
 
-| Parameter | Value |
-|-----------|-------|
-| Input | Chennai Super Kings |
-| Expected Result | "Team already exists." |
-| Actual Result | Duplicate team prevented |
-| Status | ✅ Passed |
+| Input | Expected Result | Status |
+|-------|-----------------|--------|
+| MS Dhoni (₹12 Cr) | Player added and purse reduced to ₹88 Cr | ✅ Passed |
 
-**Screenshot**
+📷 **Screenshot**
 
-```
-docs/Screenshots/duplicate_team.png
-```
-
----
-
-## TC-003 — Add Player Successfully
-
-**Objective**
-
-Verify that a player is added and the purse amount is updated correctly.
-
-| Parameter | Value |
-|-----------|-------|
-| Team | Chennai Super Kings |
-| Player | MS Dhoni |
-| Role | Wicketkeeper |
-| Price | ₹12 Cr |
-| Expected Result | Player added, purse reduced to ₹88 Cr |
-| Actual Result | Player added successfully |
-| Status | ✅ Passed |
-
-**Screenshot**
-
-```
+```text
 docs/Screenshots/add_player.png
 ```
 
 ---
 
-## TC-004 — Add Player to Non-Existing Team
+# TC-003 – View Squad
 
 **Objective**
 
-Verify that players cannot be added to a team that does not exist.
+Verify that the application correctly displays squad details.
 
-| Parameter | Value |
-|-----------|-------|
-| Team | Delhi Capitals |
-| Expected Result | "No such team." |
-| Actual Result | Error displayed |
-| Status | ✅ Passed |
+| Expected Result | Status |
+|-----------------|--------|
+| Player list, total spent, average spending, and remaining purse displayed correctly | ✅ Passed |
 
-**Screenshot**
+📷 **Screenshot**
 
-```
-docs/Screenshots/no_team.png
-```
-
----
-
-## TC-005 — Purse Limit Validation
-
-**Objective**
-
-Verify that player purchases exceeding the remaining purse are rejected.
-
-| Parameter | Value |
-|-----------|-------|
-| Remaining Purse | ₹5 Cr |
-| Player Price | ₹15 Cr |
-| Expected Result | Purchase rejected |
-| Actual Result | Error displayed |
-| Status | ✅ Passed |
-
-**Screenshot**
-
-```
-docs/Screenshots/purse_limit.png
-```
-
----
-
-## TC-006 — View Squad
-
-**Objective**
-
-Verify that squad details are displayed correctly.
-
-| Parameter | Value |
-|-----------|-------|
-| Team | Chennai Super Kings |
-| Expected Result | Squad list, total spent, average spending and remaining purse displayed |
-| Actual Result | Displayed correctly |
-| Status | ✅ Passed |
-
-**Screenshot**
-
-```
+```text
 docs/Screenshots/view_squad.png
 ```
 
 ---
 
-## TC-007 — List All Teams
+# TC-004 – Purse Limit Validation
 
 **Objective**
 
-Verify that all created teams are displayed.
+Ensure that players cannot be purchased if their price exceeds the remaining purse.
 
-| Parameter | Value |
-|-----------|-------|
-| Input | List Teams |
-| Expected Result | All teams with player count and purse shown |
-| Actual Result | Displayed correctly |
-| Status | ✅ Passed |
+| Input | Expected Result | Status |
+|-------|-----------------|--------|
+| Remaining Purse: ₹5 Cr<br>Player Price: ₹15 Cr | Purchase rejected with warning message | ✅ Passed |
 
-**Screenshot**
+📷 **Screenshot**
 
-```
-docs/Screenshots/list_teams.png
+```text
+docs/Screenshots/purse_limit.png
 ```
 
 ---
 
-## TC-008 — Invalid Price Input
+# TC-005 – Invalid Input Handling
 
 **Objective**
 
-Verify that invalid numeric input is handled correctly.
+Verify that invalid user inputs are handled gracefully.
 
-| Parameter | Value |
-|-----------|-------|
-| Input | abc |
-| Expected Result | Invalid price warning |
-| Actual Result | Validation successful |
-| Status | ✅ Passed |
+| Scenario | Expected Result | Status |
+|----------|-----------------|--------|
+| Invalid menu option or non-numeric price | Appropriate error message displayed | ✅ Passed |
 
-**Screenshot**
+📷 **Screenshot**
 
-```
-docs/Screenshots/invalid_price.png
+```text
+docs/Screenshots/invalid_input.png
 ```
 
 ---
 
-## TC-009 — Invalid Menu Option
+# Test Summary
 
-**Objective**
-
-Verify that invalid menu choices are handled.
-
-| Parameter | Value |
-|-----------|-------|
-| Input | 8 |
-| Expected Result | Invalid choice warning |
-| Actual Result | Warning displayed |
-| Status | ✅ Passed |
-
-**Screenshot**
-
-```
-docs/Screenshots/invalid_menu.png
-```
-
----
-
-## TC-010 — Maximum Squad Size
-
-**Objective**
-
-Verify that the application prevents adding more than 25 players.
-
-| Parameter | Value |
-|-----------|-------|
-| Current Players | 25 |
-| Attempt | Add Player 26 |
-| Expected Result | Addition rejected |
-| Actual Result | Validation successful |
-| Status | ✅ Passed |
-
-**Screenshot**
-
-```
-docs/Screenshots/max_squad.png
-```
-
----
-
-# Test Coverage
-
-The testing process validated the following functional areas:
-
-- ✅ Team creation
-- ✅ Duplicate team validation
-- ✅ Player registration
-- ✅ Squad management
-- ✅ Salary purse tracking
-- ✅ Maximum squad size enforcement
-- ✅ Input validation
-- ✅ Error handling
-- ✅ Squad summary generation
-- ✅ Menu navigation
-
----
-
-# Overall Test Result
-
-| Metric | Value |
-|--------|------:|
-| Total Test Cases | 10 |
-| Passed | 10 |
+| Metric | Result |
+|--------|-------:|
+| Total Test Cases | 5 |
+| Passed | 5 |
 | Failed | 0 |
 | Success Rate | **100%** |
 
 ---
 
-# Conclusion
+## Conclusion
 
-The **IPL Squad & Salary Tracker** successfully passed all planned functional test cases. The application correctly enforces IPL auction constraints, validates user inputs, manages team budgets, and generates accurate squad summaries. Testing confirms that the system is stable, reliable, and suitable for demonstrating core Python programming concepts such as functions, dictionaries, lists, loops, conditional statements, and exception handling.
-
----
+The application successfully passed all major functional test cases. Testing confirmed that the system correctly manages team creation, player additions, purse calculations, squad summaries, and user input validation, ensuring reliable operation under normal usage.
