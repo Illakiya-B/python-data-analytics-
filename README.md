@@ -23,7 +23,7 @@ This goes at the top because it's the single sentence most likely to get someone
 
 | # | Project | Question | Tools | Link |
 |---|---------|----------|-------|------|
-| 01 | IPL Squad & Salary Tracker | Can a CLI tool manage live auction budgets and squad composition cleanly? | Python, functions, CLI | [`01-IPL-squad-tracker`](./01-IPL-squad-tracker) |
+| 01 | IPL Squad & Salary Tracker | Can a CLI tool manage live auction budgets and squad composition cleanly? | Python, functions, CLI | [`01.IPL-squad-tracker`](./01.IPL-squad-tracker) |
 | 02 | Personal Finance Ledger | Where does my own money actually go each month? | Python, file I/O, dictionaries | [`02-finance-ledger`](./02-finance-ledger) |
 | 03 | Batting Consistency Index | Who are the most *consistent* IPL batsmen, not just the highest scorers? | NumPy, custom metrics | [`03-batting-consistency`](./03-batting-consistency) |
 | 04 | IPL Team Performance Dashboard | Which teams have the strongest home advantage in IPL history? | Pandas, groupby, pivot tables | [`04-ipl-team-dashboard`](./04-ipl-team-dashboard) |
