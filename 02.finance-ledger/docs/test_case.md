@@ -130,7 +130,28 @@ Verify that invalid user inputs are handled without crashing the application.
 | Success Rate | **100%** |
 
 ---
+##  JSON File Verification
 
+To validate persistent storage, transactions were added through the application and the generated `ledger.json` file was inspected.
+
+The JSON file correctly stored all transaction attributes including:
+
+- Transaction ID
+- Description
+- Amount
+- Category
+- Date
+
+Upon restarting the application, the stored data was successfully loaded from the JSON file without any loss of information.
+
+### Screenshot
+
+<p align="center">
+  <img src="Screenshots/json_module.png" alt="JSON File" width="250">
+</p>
+
+**Status:** ✅ Passed
+---
 ## Conclusion
 
 The **Personal Finance Ledger** successfully passed all major functional test cases. Testing verified that the application correctly records expenses, persists data in a JSON file, generates monthly spending summaries, supports transaction deletion, and validates user inputs to ensure reliable and consistent operation.
