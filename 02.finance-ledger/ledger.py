@@ -26,7 +26,7 @@ CATEGORIES = [
 ]
 
 
-# ── Storage helpers ───────────────────────────────────────────────────────────
+# ── Storage helpers 
 
 def load_ledger():
     """Load transactions from the JSON file. Returns an empty list if none."""
@@ -42,7 +42,7 @@ def save_ledger(transactions):
         json.dump(transactions, f, indent=2)
 
 
-# ── Core operations ───────────────────────────────────────────────────────────
+# ── Core operations 
 
 def add_transaction(transactions):
     print("\n--- Add Transaction ---")
