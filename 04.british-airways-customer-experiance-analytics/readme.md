@@ -21,10 +21,10 @@ It's a cleaned mix of review text (headline, author, content, date) and passenge
 
 ## How to run
 
-\\\ bash
+``` bash
 pip install pandas
 python airline_analysis.py
-\\\
+```
 
 Outputs a few summary CSVs:
 - summary_by_seat_type.csv
