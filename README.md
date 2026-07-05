@@ -1,6 +1,6 @@
 # Data Analytics Portfolio — Cricket, Civic Data, and Everyday Numbers
 
-Eight projects , exploring questions across IPL cricket, personal finance, and air quality in Indian cities. Each project answers a specific question rather than just describing a dataset.
+Eight projects , exploring questions across IPL cricket, personal finance, gold price statistics and air quality in Indian cities. Each project answers a specific question rather than just describing a dataset.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-data%20wrangling-150458?logo=pandas&logoColor=white)
@@ -25,7 +25,7 @@ This goes at the top because it's the single sentence most likely to get someone
 |---|---------|----------|-------|------|
 | 01 | IPL Squad & Salary Tracker | Can a CLI tool manage live auction budgets and squad composition cleanly? | Python, functions, CLI | [`01.IPL-squad-tracker`](./01.IPL-squad-tracker) |
 | 02 | Personal Finance Ledger | Where does my own money actually go each month? | Python, file I/O, dictionaries | [`02.finance-ledger`](./02.finance-ledger) |
-| 03 | Batting Consistency Index | Who are the most *consistent* IPL batsmen, not just the highest scorers? | NumPy, custom metrics | [`03.gold-price-statistical-analysis`](./03.gold-price-statistical-analysis) |
+| 03 | Gold statistical Analysis | Gold Data for past 5 year(2022-2026) has been analysed  | NumPy, custom metrics | [`03.gold-price-statistical-analysis`](./03.gold-price-statistical-analysis) |
 | 04 | IPL Team Performance Dashboard | Which teams have the strongest home advantage in IPL history? | Pandas, groupby, pivot tables | [`04-ipl-team-dashboard`](./04-ipl-team-dashboard) |
 | 05 | Cleaning India's Air Quality Data | How clean is the AQI data India publishes — and what does it take to fix it? | Pandas, data cleaning pipeline | [`05-air-quality-cleaning`](./05-air-quality-cleaning) |
 | 06 | IPL: Toss Decisions & Home Advantage | Does winning the toss actually matter in IPL? | Matplotlib, Seaborn, EDA | [`06-ipl-toss-home-advantage`](./06-ipl-toss-home-advantage) |
