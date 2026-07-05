@@ -45,7 +45,7 @@ Verify that the application correctly computes descriptive statistics for the go
 ### Screenshot
 
 <p align="center">
-  <img src="screenshots/statistical_summary.png" alt="Statistical Summary" width="650">
+  <img src="screenshots/statistical_summary.png" alt="Statistical Summary" width="450">
 </p>
 
 ---
@@ -63,7 +63,7 @@ Verify that the application correctly identifies potential outliers using the In
 ### Screenshot
 
 <p align="center">
-  <img src="screenshots/outlier_detection.png" alt="Outlier Detection" width="650">
+  <img src="screenshots/outlier_detection.png" alt="Outlier Detection" width="450">
 </p>
 
 ---
@@ -81,7 +81,7 @@ Verify that the application compares the average prices of two time periods usin
 ### Screenshot
 
 <p align="center">
-  <img src="screenshots/trend_analysis.png" alt="Trend Analysis" width="650">
+  <img src="screenshots/trend_analysis.png" alt="Trend Analysis" width="450">
 </p>
 
 ---
@@ -99,7 +99,7 @@ Verify that the application successfully displays the daily price change.
 ### Screenshot
 
 <p align="center">
-  <img src="screenshots/price_change.png" alt="Price Change" width="650">
+  <img src="screenshots/price_change.png" alt="Price Change" width="450">
 </p>
 
 ---
@@ -117,7 +117,7 @@ Verify that the application compares the average prices of two time periods usin
 ### Screenshot
 
 <p align="center">
-  <img src="screenshots/compare_trend.png" alt="Compare Trend" width="650">
+  <img src="screenshots/compare_trend.png" alt="Compare Trend" width="450">
 </p>
 
 ---
@@ -135,7 +135,7 @@ Verify that the statistical analysis report is successfully exported to a text f
 ### Screenshot
 
 <p align="center">
-  <img src="screenshots/export_report.png" alt="Export Report" width="650">
+  <img src="screenshots/export_report.png" alt="Export Report" width="450">
 </p>
 
 ---
