@@ -22,7 +22,7 @@ It's a cleaned mix of review text (headline, author, content, date) and passenge
 ## How to run
 
 ``` bash
-pip install pandas
+pip install pandas numpy matplotlib seaborn
 python airline_analysis.py
 ```
 
