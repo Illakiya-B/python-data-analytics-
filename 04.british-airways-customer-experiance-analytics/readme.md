@@ -1,7 +1,15 @@
 # Airways Customer Experiance Analytics
 
 Week 4 internship project — digging into airline passenger reviews using pandas, groupby, and pivot tables.
+---
+Tech Stack
 
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+---
 ## Data
 
 Dataset: `processed_airline.csv`
