@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+seaborn
+
+```bash
+pip install pandas numpy matplotlib seaborn
+```
