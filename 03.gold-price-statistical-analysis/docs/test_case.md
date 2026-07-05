@@ -130,7 +130,7 @@ Verify that the statistical analysis report is successfully exported to a text f
 
 | Input | Expected Result | Status |
 |-------|-----------------|--------|
-| Menu Option: **6** | `gold_report.txt` generated with statistical summary | ✅ Passed |
+| Menu Option: **6** | [`gold_report.txt`](./gold_report) generated with statistical summary | ✅ Passed |
 
 ### Screenshot
 
