@@ -11,14 +11,6 @@ Eight projects , exploring questions across IPL cricket, personal finance, gold 
 
 ---
 
-## Featured finding
-
-> *Add your strongest one-line insight here once you have it — e.g. "Teams batting first after winning the toss won only 51% of IPL matches across 15 seasons, undermining the conventional wisdom that toss decisions are decisive."*
-
-This goes at the top because it's the single sentence most likely to get someone to keep reading. Update it as soon as your best project produces a real number.
-
----
-
 ## Projects
 
 | # | Project | Question | Tools | Link |
