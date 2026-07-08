@@ -43,24 +43,23 @@ It's a cleaned mix of review text (headline, author, content, date) and passenge
 
 ## Reports
 
-```text
-customer_report.txt
+[customer_report](./reports/customer_report.txt)
 
-traveller_analysis.csv
+[traveller_analysis](./reports/traveller_analysis.csv)
 
-seat_type_analysis.csv
+[seat_type_analysis](./reports/seat_type_analysis.csv)
 
-top_routes.csv
+[top_routes](./reports/top_routes.csv)
 
-aircraft_analysis.csv
-```
+[aircraft_analysis](./reports/aircraft_analysis.csv)
+
 ---
 
 ## Visualizations
 
 | Visualization | Description |
 |--------------|-------------|
-| Rating Distribution | Distribution of overall ratings |
+| [rating_distribution](./visualizations/rating_distribution.png) | Distribution of overall ratings |
 | Traveller Rating | Average rating by traveller type |
 | Seat Type Rating | Average rating by seat class |
 | Recommendation Distribution | Recommended vs Not Recommended |
