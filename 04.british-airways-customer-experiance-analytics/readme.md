@@ -59,12 +59,12 @@ It's a cleaned mix of review text (headline, author, content, date) and passenge
 
 | Visualization | Description |
 |--------------|-------------|
-| [rating_distribution](./visualizations/rating_distribution.png) | Distribution of overall ratings |
-| Traveller Rating | Average rating by traveller type |
-| Seat Type Rating | Average rating by seat class |
-| Recommendation Distribution | Recommended vs Not Recommended |
-| Service Scores | Comparison of service metrics |
-| Correlation Heatmap | Relationship among ratings |
+| [Rating Distribution](./visualizations/rating_distribution.png) | Distribution of overall ratings |
+| [Traveller Rating](./visualizations/traveller_rating.png)| Average rating by traveller type |
+| [Seat Type Rating](./visualizations/seat_type_rating.png) | Average rating by seat class |
+| [Recommendation Distribution](./visualizations/reacommendation_distribution.png) | Recommended vs Not Recommended |
+| [Service Scores](./visualizations/service_scores.png) | Comparison of service metrics |
+| [Correlation Heatmap](./visualiations/correlation_heatmap.png) | Relationship among ratings |
 
 ## How to run
 
