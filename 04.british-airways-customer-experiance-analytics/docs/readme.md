@@ -18,7 +18,7 @@ The dataset was imported using **Pandas** and validated before analysis.
 
 ### Screenshot
 
-<img src="Screenshots/dataset_overview.png" width="700">
+<img src="Screenshots/dataset_overview.png" width="400">
 
 ---
 
@@ -35,11 +35,11 @@ The following checks were performed:
 
 ### Data Types (Before)
 
-<img src="Screenshots/data_types_before.png" width="650">
+<img src="Screenshots/data_types_before.png" width="450">
 
 ### Missing Values (Before)
 
-<img src="Screenshots/missing_values_before.png" width="650">
+<img src="Screenshots/missing_values_before.png" width="450">
 
 ---
 
@@ -58,7 +58,7 @@ This helped determine the required preprocessing steps.
 
 ### Screenshot
 
-<img src="Screenshots/key_column_inspection.png" width="650">
+<img src="Screenshots/key_column_inspection.png" width="450">
 
 ---
 
@@ -93,7 +93,7 @@ Verified that all service rating columns were stored as numeric values.
 
 ### Screenshot
 
-<img src="Screenshots/preparation_summary.png" width="700">
+<img src="Screenshots/preparation_summary.png" width="400">
 
 ---
 
@@ -103,11 +103,11 @@ After preprocessing, the dataset became fully analysis-ready.
 
 ### Updated Data Types
 
-<img src="Screenshots/data_types_updated.png" width="650">
+<img src="Screenshots/data_types_updated.png" width="450">
 
 ### Missing Values After Preparation
 
-<img src="Screenshots/missing_values_after.png" width="650">
+<img src="Screenshots/missing_values_after.png" width="450">
 
 ### Preparation Outcome
 
@@ -153,7 +153,7 @@ Metrics analysed:
 
 ### Screenshot
 
-<img src="Screenshots/traveller_analysis.png" width="700">
+<img src="Screenshots/traveller_analysis.png" width="400">
 
 ---
 
@@ -170,7 +170,7 @@ Metrics analysed:
 
 ### Screenshot
 
-<img src="Screenshots/seat_analysis.png" width="700">
+<img src="Screenshots/seat_analysis.png" width="400">
 
 ---
 
@@ -182,7 +182,7 @@ The trend helps identify periods with higher customer engagement.
 
 ### Screenshot
 
-<img src="Screenshots/monthly_review.png" width="700">
+<img src="Screenshots/monthly_review.png" width="400">
 
 ---
 
@@ -201,7 +201,7 @@ The project identified:
 
 ### Screenshot
 
-<img src="Screenshots/executive_insights.png" width="700">
+<img src="Screenshots/executive_insights.png" width="400">
 
 ---
 
@@ -218,7 +218,7 @@ This provides decision-makers with a quick overview of:
 
 ### Screenshot
 
-<img src="Screenshots/top_bottom_insights.png" width="700">
+<img src="Screenshots/top_bottom_insights.png" width="400">
 
 ---
 
