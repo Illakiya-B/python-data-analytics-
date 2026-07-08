@@ -30,11 +30,11 @@ ENV/
 
 Thumbs.db
 
-# Generated Reports (optional)
+# Generated Reports
 
 reports/*.csv
 reports/*.txt
 
-# Generated Charts (optional)
+# Generated Charts 
 
 visualizations/*.png
