@@ -88,9 +88,11 @@ python customer_experience_analysis.py
 ```
 
 Outputs a few summary CSVs:
-#  Screenshots
+## Project Documentation
 
-Screenshots of outputs and charts are available in the [docs/Screenshots/](./docs/Screenshots) folder.
+Detailed implementation steps, preprocessing workflow, and console outputs are available here:
+
+**[Project Workflow](docs/project_workflow.md)**
 
 #  Author
 
