@@ -95,7 +95,9 @@ Screenshots of outputs and charts are available in the [docs/Screenshots/](./doc
 #  Author
 
 **Illakiya B**
+
 M.Sc. Data Analytics
+
 Connect with me on **LinkedIn**
 
 [LinkedIn Profile](https://www.linkedin.com/in/illakiya-boopathy-58680630a)
