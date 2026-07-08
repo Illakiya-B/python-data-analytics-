@@ -1,14 +1,25 @@
 # Airways Customer Experiance Analytics
-
-Week 4 internship project — digging into airline passenger reviews using pandas, groupby, and pivot tables.
+Digging into airline passenger reviews using pandas, groupby, and pivot tables.
 ---
 Tech Stack
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-4C72B0)
+---
+## Project Overview
+This project analyzes **1,324 British Airways passenger reviews** to answer important business questions such as:
+
+- Which traveller type is the most satisfied?
+- Which seat class receives the highest ratings?
+- Which aircraft performs best?
+- Which routes receive the most reviews?
+- Which service factor has the greatest impact on customer satisfaction?
+- How likely are passengers to recommend British Airways?
+
+The project demonstrates practical use of **Pandas GroupBy, Pivot Tables, Correlation Analysis, Data Visualization, and Business Reporting**.
+
 ---
 ## Data
 
@@ -26,20 +37,68 @@ It's a cleaned mix of review text (headline, author, content, date) and passenge
 - Used **groupby** to compare ratings across seat types, traveller types, and routes
 - Used **pivot_table** to cross-tab ratings by seat type vs traveller type, and recommendation rate by seat type vs verified trips
 - Checked which service factors (comfort, staff, food, etc) correlate most with overall rating
+---
+
+#  Sample Outputs
+
+## Reports
+
+```text
+customer_report.txt
+
+traveller_analysis.csv
+
+seat_type_analysis.csv
+
+top_routes.csv
+
+aircraft_analysis.csv
+```
+---
+
+## Visualizations
+
+| Visualization | Description |
+|--------------|-------------|
+| Rating Distribution | Distribution of overall ratings |
+| Traveller Rating | Average rating by traveller type |
+| Seat Type Rating | Average rating by seat class |
+| Recommendation Distribution | Recommended vs Not Recommended |
+| Service Scores | Comparison of service metrics |
+| Correlation Heatmap | Relationship among ratings |
 
 ## How to run
 
-``` bash
-pip install pandas numpy matplotlib seaborn
-python airline_analysis.py
+
+Clone the repository
+
+```bash
+git clone https://github.com/Illakiya-B/british-airways-customer-experience-analytics.git
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the project
+
+```bash
+python customer_experience_analysis.py
 ```
 
 Outputs a few summary CSVs:
-- summary_by_seat_type.csv
-- pivot_rating_seat_vs_traveller.csv
-- recommendation_rate_by_traveller.csv
+#  Screenshots
 
-## Findings
+Screenshots of outputs and charts are available in the [docs/Screenshots/](.docs/Screenshots) folder.
 
-_(fill in once run on real data — e.g. which seat type is happiest, which service factor matters most, busiest routes)_
+# 👩‍💻 Author
 
+**Illakiya B**
+M.Sc. Data Analytics
+Connect with me on **LinkedIn**
+
+[LinkedIn Profile](https://www.linkedin.com/in/illakiya-boopathy-58680630a)
+
+---
