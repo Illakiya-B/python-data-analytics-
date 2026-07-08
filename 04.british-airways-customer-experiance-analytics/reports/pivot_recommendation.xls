@@ -1,0 +1,5 @@
+seat_type,0,1
+Business Class,0.5,0.45
+Economy Class,0.36,0.42
+First Class,0.67,0.43
+Premium Economy,0.12,0.46
