@@ -1,0 +1,5 @@
+seat_type,Reviews,Avg_Rating,Seat_Comfort,Value_For_Money,Recommendation
+Business Class,501,3.93,2.85,2.75,45.0
+Economy Class,604,4.36,2.74,2.77,41.0
+First Class,87,4.39,3.56,2.97,44.0
+Premium Economy,132,4.22,3.09,2.79,44.0
