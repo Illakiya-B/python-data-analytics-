@@ -91,7 +91,7 @@ python customer_experience_analysis.py
 Outputs a few summary CSVs:
 #  Screenshots
 
-Screenshots of outputs and charts are available in the [docs/Screenshots/](.docs/Screenshots) folder.
+Screenshots of outputs and charts are available in the [docs/Screenshots/](./docs/Screenshots) folder.
 
 # 👩‍💻 Author
 
