@@ -92,7 +92,7 @@ Outputs a few summary CSVs:
 
 Screenshots of outputs and charts are available in the [docs/Screenshots/](./docs/Screenshots) folder.
 
-# 👩‍💻 Author
+#  Author
 
 **Illakiya B**
 M.Sc. Data Analytics
