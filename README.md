@@ -1,6 +1,6 @@
 # Data Analytics Portfolio — Cricket, Civic Data, and Everyday Numbers
 
-Eight projects , exploring questions across IPL cricket, personal finance, gold price statistics and air quality in Indian cities. Each project answers a specific question rather than just describing a dataset.
+Projects , exploring questions across IPL cricket, personal finance, gold price statistics and Airways Customer experience. Each project answers a specific question rather than just describing a dataset.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-data%20wrangling-150458?logo=pandas&logoColor=white)
