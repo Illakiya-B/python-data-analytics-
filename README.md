@@ -19,7 +19,7 @@ Projects , exploring questions across IPL cricket, personal finance, gold price 
 | 02 | Personal Finance Ledger | Where does my own money actually go each month? | Python, file I/O, dictionaries | [`finance-ledger`](./02.finance-ledger) |
 | 03 | Gold statistical Analysis | What was the gold price trend for past 5 years(2022-2026)? | NumPy, custom metrics | [`gold-price-statistical-analysis`](./03.gold-price-statistical-analysis) |
 | 04 | Airways Customer Experience Anaalysis | How was the past customer experiance  ? | Pandas, groupby, pivot tables | [`british-airways-customer-experiance-analytics`](./04.british-airways-customer-experiance-analytics) |
-| 07 | Capstone -crypto vs traditional market | Has Cryptocurrency Decoupled from Traditional Financial Markets? | Full pipeline | [`capstone-crypto_decoupling_analysis`](./05.capstone-crypto_decoupling_analysis) |
+| 05 | Capstone -crypto vs traditional market | Has Cryptocurrency Decoupled from Traditional Financial Markets? | Full pipeline | [`capstone-crypto_decoupling_analysis`](./05.capstone-crypto_decoupling_analysis) |
 
 ---
 
