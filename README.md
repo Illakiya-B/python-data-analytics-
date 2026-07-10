@@ -19,29 +19,23 @@ Projects , exploring questions across IPL cricket, personal finance, gold price 
 | 02 | Personal Finance Ledger | Where does my own money actually go each month? | Python, file I/O, dictionaries | [`02.finance-ledger`](./02.finance-ledger) |
 | 03 | Gold statistical Analysis | What was the gold price trend for past 5 years(2022-2026)? | NumPy, custom metrics | [`03.gold-price-statistical-analysis`](./03.gold-price-statistical-analysis) |
 | 04 | Airways Customer Experience Anaalysis | How was the past customer experiance  ? | Pandas, groupby, pivot tables | [`04.british-airways-customer-experiance-analytics`](./04.british-airways-customer-experiance-analytics) |
-| 05 | Cleaning India's Air Quality Data | How clean is the AQI data India publishes — and what does it take to fix it? | Pandas, data cleaning pipeline | [`05-air-quality-cleaning`](./05-air-quality-cleaning) |
-| 06 | IPL: Toss Decisions & Home Advantage | Does winning the toss actually matter in IPL? | Matplotlib, Seaborn, EDA | [`06-ipl-toss-home-advantage`](./06-ipl-toss-home-advantage) |
-| 07 | Capstone — *[title TBD]* | *[your final research question]* | Full pipeline | [`capstone-[topic]`](./capstone-topic) |
-
-*(Project 07 is the Week 7 capstone — link and title to be finalized once the topic is locked in.)*
+| 07 | Capstone -crypto vs traditional market | Has Cryptocurrency Decoupled from Traditional Financial Markets? | Full pipeline | [`05.capstone-crypto_market`](./05.capstone-crypto_market) |
 
 ---
 
 ## About this portfolio
 
-Python data analytics projects covering Python fundamentals, NumPy, Pandas, data cleaning, and exploratory data analysis. Every project here was rebuilt around real questions in cricket analytics, personal finance, and civic data — with the IPL theme running through four of the eight projects to show depth, and standalone projects in other domains to show range.
-
-Each project folder contains its own README with the question it answers, the approach taken, the key finding, and an honest section on what's missing or what I'd do with more time.
+Python data analytics projects covering Python fundamentals, NumPy, Pandas, data cleaning, and exploratory data analysis. Every project here was rebuilt around real questions in cricket analytics, personal finance, and civic data.
 
 ## Tech stack
 
 Python 3.8+, Jupyter Notebook, NumPy, Pandas, Matplotlib, Seaborn.
 
 
-## 🤝 Let's Connect
+##  Let's Connect
 
 If you enjoyed this project or would like to collaborate on data analytics, machine learning, or business intelligence projects, I'd love to connect!
 
-💼 **LinkedIn:** https://www.linkedin.com/in/illakiya-boopathy-58680630a
+ **LinkedIn:** https://www.linkedin.com/in/illakiya-boopathy-58680630a
 
 ⭐ If you found this repository helpful, consider giving it a star!
