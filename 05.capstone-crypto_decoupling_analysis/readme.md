@@ -149,37 +149,44 @@ The following financial metrics were calculated throughout the analysis:
 
 ## Correlation Matrix
 
-![Correlation Matrix](docs/images/correlation_matrix.png)
+<p align="center">
+  <img src="docs/images/correlation_matrix.png" alt="Correlation Matrix" width="60%">
+</p>
 
 ---
 
 ## Distribution of Daily Returns
-
-![Distribution](docs/images/distribution_daily_assets.png)
+<p align="center">
+  <img src="docs/images/distribution_daily_assets.png" alt="Distribution of daily assets" width="60%">
+</p>
 
 ---
 
 ## Rolling Annualized Volatility
-
-![Volatility](docs/images/rolling_annualized_volatility.png)
+<p align="center">
+  <img src="docs/images/rolling_annualized_volatility.png" alt="Annualized rolling volatility" width="60%">
+</p>
 
 ---
 
 ## Maximum Drawdown Comparison
-
-![Drawdown](docs/images/drawdown_comparison.png)
+<p align="center">
+  <img src="docs/images/drawdown_comparison.png" alt="Drawdown comparison" width="60%">
+</p>
 
 ---
-
 ## Sharpe Ratio Comparison
-
-![Sharpe Ratio](docs/images/sharpe_ratio.png)
+<p align="center">
+  <img src="docs/images/sharpe_ratio.png" alt="Sharpe Ratio" width="60%">
+</p>
 
 ---
 
 ## Performance Summary
+<p align="center">
+  <img src="docs/images/performance_summary.png" alt="Performance Summary" width="60%">
+</p>
 
-![Performance Summary](docs/images/performance_summary.png)
 
 ---
 
