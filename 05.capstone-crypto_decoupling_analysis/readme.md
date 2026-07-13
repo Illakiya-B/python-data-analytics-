@@ -1,7 +1,9 @@
-#  Crypto Market Decoupling Analysis
+<p align="center">
+  <img src="docs/images/banner.png" alt="Crypto Market Decoupling Analysis Banner" width="100%">
+</p>
 
-**Has Cryptocurrency Decoupled from Traditional Financial Markets?**  
-*A Comparative Analysis of Bitcoin, Ethereum, Gold, and the S&P 500 (2019–2024)*
+---
+
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
@@ -18,6 +20,16 @@
 Cryptocurrencies are often promoted as an alternative asset class capable of providing diversification from traditional financial markets. However, periods of global economic uncertainty have raised questions about whether digital assets continue to behave independently or increasingly move alongside conventional investments.
 
 This project investigates the relationship between **Bitcoin**, **Ethereum**, **Gold**, and the **S&P 500 Index** using historical market data from **2019–2024**. Through financial analytics and statistical techniques, the study evaluates whether cryptocurrencies have decoupled from traditional financial markets.
+
+#  Project Highlights
+
+<p align="center">
+
+|  Period | Assets |  Notebooks | Financial Metrics |
+|:---------:|:--------:|:------------:|:-------------------:|
+| 2019–2024 | 4 | 7 | 10+ |
+
+</p>
 
 ---
 
@@ -97,36 +109,48 @@ This project investigates the relationship between **Bitcoin**, **Ethereum**, **
 
 
 ---
+#  Project Architecture
+```mermaid
+flowchart LR
 
-#  Project Workflow
+A([Yahoo Finance])
 
-```
-Business Understanding
-          │
-          ▼
-Data Collection
-          │
-          ▼
-Data Cleaning & Preparation
-          │
-          ▼
-Exploratory Data Analysis
-          │
-          ▼
-Financial Feature Engineering
-          │
-          ▼
-Correlation Analysis
-          │
-          ▼
-Risk & Performance Analysis
-          │
-          ▼
-Business Insights & Conclusion
+A --> B
+
+subgraph Data Preparation
+B[Collection]
+C[Cleaning]
+D[EDA]
+end
+
+subgraph Financial Analytics
+E[Feature Engineering]
+F[Correlation]
+G[Risk Analysis]
+H[Performance]
+end
+
+subgraph Decision Making
+I[Hypothesis Evaluation]
+J[Business Insights]
+end
+
+B --> C
+C --> D
+
+D --> E
+E --> F
+
+E --> G
+E --> H
+
+G --> I
+H --> I
+
+I --> J
 ```
 
 ---
-
 #  Financial Metrics Used
 
 The following financial metrics were calculated throughout the analysis:
